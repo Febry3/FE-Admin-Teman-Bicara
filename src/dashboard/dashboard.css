@@ -1,0 +1,63 @@
+body {
+    background-color: #f8f9fa;
+}
+.welcome-text {
+    color: #6c757d;
+}
+.dashboard-title {
+    color: #95B069;
+    margin-bottom: 2rem;
+}
+.stat-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    border: none;
+}
+.stat-title {
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #212529;
+}
+
+i.bi-arrow-right-circle-fill {
+    color: #95B069;
+}
+
+table {
+    border: none;
+    padding: 300px;
+}
+
+th, td {
+    border: none;
+    font-size: 18px;
+    vertical-align: middle;
+    padding: 300px;
+}
+
+th.table-head,
+td.table-head {
+    color: grey;
+}
+
+.custom-status {
+    margin: 10px; 
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid grey; 
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+    width: 10rem;
+}
+
+#profile-pict {
+    font-size: 45px;
+}
