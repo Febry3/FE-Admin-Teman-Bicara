@@ -4,8 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #profile-pict {
+            font-size: 45px;
+        }
+    
+        td, th {
+                height: 75px;
+                font-size: 18px;
+                vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
-    <h1>quiz</h1>
+    <main>
+        <div class="container-fluid py-3 px-5">
+            <div class="d-flex justify-content-between" >
+                <div>
+                    <h4>Hello, Admin</h4>
+                    <h6>Have a nice day</h6>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div id="profile-pict">
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div class="ps-3">
+                        <h4>Al-Schwarz</h4>
+                        <h6>Admin</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="py-3">
+                <h1 style="color: #7D944D;">Quiz</h1>
+            </div>
+            <div class="input-group mb-5">
+                <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search Quiz" aria-label="Counselor"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="px-3 border rounded">
+                <table class="table">
+                    <thead>
+                        <tr class="table-success">
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Type</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>12345678</td>
+                            <td>Question_1</td>
+                            <td>Multiple Choice</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12345678</td>
+                            <td>Question_1</td>
+                            <td>Multiple Choice</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12345678</td>
+                            <td>Question_1</td>
+                            <td>Multiple Choice</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+            
+                </table>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
