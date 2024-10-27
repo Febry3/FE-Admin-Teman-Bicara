@@ -21,7 +21,11 @@ a {
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
+<<<<<<< HEAD
+  
+=======
     font-family: "Poppins", serif;
+>>>>>>> acb5ed7f26e40be8bdad70a174308142e568ffa8
 }
 
 #sidebar {
