@@ -1,0 +1,45 @@
+body {
+    background-color: #f7f8fa;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+h3 {
+    color: #27ae60;
+}
+
+.table thead th {
+    color: #6c757d;
+}
+
+.table tbody tr td {
+    vertical-align: middle;
+    color: #3c4043;
+}
+
+.badge.bg-secondary {
+    background-color: #e0e0e0 !important;
+    color: #6c757d;
+}
+
+.badge.bg-info {
+    background-color: #b3e5fc !important;
+    color: #0277bd;
+}
+
+.badge.bg-success {
+    background-color: #c8e6c9 !important;
+    color: #388e3c;
+}
+
+.badge.bg-danger {
+    background-color: #ffcdd2 !important;
+    color: #d32f2f;
+}
+
+.input-group-text {
+    background-color: #f7f8fa;
+    border: none;
+}
