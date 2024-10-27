@@ -4,24 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        #profile-pict {
+            font-size: 45px;
+        }
+
+        td, th {
+            height: 75px;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <table class="table">
-            <tr>
-                <th>List Conselor</th>
-            </tr>
-            <tr>
-                <th>Name</th>
-                <th>Create Date</th>
-                <th>Field</th>
-                <th>Action</th>
-            </tr>
-        
-        </table>
-    </div>
+    <main>
+        <div class="container-fluid py-3 px-5">
+            <div class="d-flex justify-content-between" >
+                <div>
+                    <h4>Hello, Admin</h4>
+                    <h6>Have a nice day</h6>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div id="profile-pict">
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div class="ps-3">
+                        <h4>Al-Schwarz</h4>
+                        <h6>Admin</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="py-3">
+                <h1 style="color: #7D944D;">Counselor</h1>
+            </div>
+            <div class="input-group mb-5">
+                <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search Counselor" aria-label="Counselor"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="px-3 border rounded">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th colspan="4">
+                                <h3>List Conselor</h3>
+                            </th>
+                        </tr>
+                    </thead>
+                    <thead>
+                        <tr class="table-success">
+                            <th>Name</th>
+                            <th>Create Date</th>
+                            <th>Field</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>David Wagner <br> davidwagner@gmail.com</td>
+                            <td>24 Otc, 2015</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>David Wagner <br> davidwagner@gmail.com</td>
+                            <td>24 Otc, 2015</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>David Wagner <br> davidwagner@gmail.com</td>
+                            <td>24 Otc, 2015</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>David Wagner <br> davidwagner@gmail.com</td>
+                            <td>24 Otc, 2015</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>David Wagner <br> davidwagner@gmail.com</td>
+                            <td>24 Otc, 2015</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>David Wagner <br> davidwagner@gmail.com</td>
+                            <td>24 Otc, 2015</td>
+                            <td>Lorem Ipsum</td>
+                            <td>
+                                <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                
+                </table>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
