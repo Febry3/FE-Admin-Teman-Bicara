@@ -1,5 +1,54 @@
-.test {
-    background-color: red;
-    min-height: 100vh;
-    min-width: 100%;
+.admin-title {
+    color: #95B069;
+    margin-bottom: 2rem;
+}
+
+.custom-button {
+    background-color: #7D944D;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 24px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.badge-role {
+    background-color: #7D944D;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    padding: 6px 35px;
+}
+
+.table-header {
+    background-color: #f3faed;
+}
+
+.search-input {
+    border-radius: 10px;
+}
+
+.table-header th {
+    padding: 12px 20px;
+}
+
+.table tbody td {
+    padding: 20px 20px;
+}
+
+#profile-pict {
+    font-size: 45px;
+}
+
+i {
+    color: grey;
+}
+
+.bi.bi-pencil:hover {
+    color: black;
+}
+
+.bi.bi-trash:hover {
+    color: red;
 }

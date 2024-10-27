@@ -3,7 +3,7 @@
 
 body {
     font-family: "Poppins", serif;
-    background-color: aqua;
+    background-color: #F5F5F5;
 }
 
 li {
@@ -22,7 +22,7 @@ a {
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
-    background-color: aquamarine;
+    background-color: #F5F5F5;
 }
 
 #sidebar {

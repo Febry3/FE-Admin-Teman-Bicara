@@ -61,3 +61,8 @@ td.table-head {
 #profile-pict {
     font-size: 45px;
 }
+
+.table td,
+.table th {
+    padding: 16px 32px; 
+}
